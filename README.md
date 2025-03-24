@@ -1,7 +1,3 @@
-# YouTube Shorts Content Engine 🚀
-
-A comprehensive system for discovering, creating, and scaling profitable YouTube Shorts content using the data-driven "Zoink & Twist Method" - find what's working and make it better.
-
 ## Overview
 
 This toolkit helps you build and scale YouTube Shorts channels with minimal investment by:
