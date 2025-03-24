@@ -1,0 +1,26 @@
+[
+    {
+        "name": "loid",
+        "value": "000000001lu6n4p7k1.2.1742794919591.Z0FBQUFBQm40UENuLVRyMURqRkJXU2trUlpZb0xsTHlqUGlWRWNPaGwxbk1wR3piQmxtbGVNQjF1UU1UZ3lZdlZ5VEZ5cXU1bmJoVUNaZGM1UUkzWV93M2lyZGU4YmtrSS1VemJqZ01ldXRFZGE2RVVnZ3kxbGZYVHlQeU5fMS1oUDVrWFdWaHNwSF8",
+        "domain": ".reddit.com",
+        "path": "/"
+    },
+    {
+        "name": "session_tracker",
+        "value": "hbderenkgbggichhjf.0.1742795784611.Z0FBQUFBQm40UFFLaTVGcnUxWFpZRE1XM2dHUi1UcW9BS1RrVngxSll1V3ZkVGN1WV9rbm5Xa1ZqTFR6Z0RFQ1VSUWZXVkxmdHI4LVNoRDI1SzhVR1AyclpZLVprSVpiQ2lKR1ZhcUQtYTItay1YVlI2TGFqaTNZWFNnaWxwajZmRW5sSl9sNXRyRmE",
+        "domain": ".reddit.com",
+        "path": "/"
+    },
+    {
+        "name": "csv",
+        "value": "2",
+        "domain": ".reddit.com",
+        "path": "/"
+    },
+    {
+        "name": "edgebucket",
+        "value": "Tey2RJZn4tqnZ4KXg4",
+        "domain": ".reddit.com",
+        "path": "/"
+    }
+]

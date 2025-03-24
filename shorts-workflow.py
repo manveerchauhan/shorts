@@ -23,12 +23,18 @@ from typing import List, Dict, Any, Optional
 
 # Import our modules
 try:
-    from reddit_scraper import RedditScraper, create_default_config as create_scraper_config
+    # Import the enhanced scraper but keep the same class name for compatibility
+    from reddit_scraper import EnhancedRedditScraper as RedditScraper, create_default_config as create_scraper_config
     from reddit_to_shorts import RedditToShortsConverter, create_default_config as create_converter_config
 except ImportError:
-    print("Please ensure reddit_scraper.py and reddit_to_shorts.py are in the same directory")
-    exit(1)
-
+    try:
+        # Fall back to original scraper if improved version is not found
+        from reddit_scraper import RedditScraper, create_default_config as create_scraper_config
+        from reddit_to_shorts import RedditToShortsConverter, create_default_config as create_converter_config
+        print("Warning: Using original Reddit scraper. For better results, rename 'improved_reddit_scraper.py' to 'reddit_scraper.py'")
+    except ImportError:
+        print("Please ensure reddit_scraper.py and reddit_to_shorts.py are in the same directory")
+        exit(1)
 
 class ShortsWorkflow:
     """Orchestrates the full YouTube Shorts content workflow."""
